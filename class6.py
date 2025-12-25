@@ -84,29 +84,52 @@
 # ======================== Question 6th
 # ======================== check a Days of week checker
 
-day = int(input("enter a number:"))
-day = day % 7
+# day = int(input("enter a number:"))
+# day = day % 7
 
-if day == 1:
-    print("Sunday")
+# if day == 1:
+#     print("Sunday")
 
-elif day == 2:
-    print("Monday")
+# elif day == 2:
+#     print("Monday")
 
-elif day == 3:
-    print("Tuesday")
+# elif day == 3:
+#     print("Tuesday")
 
-elif day == 4:
-    print("Wednesday")
+# elif day == 4:
+#     print("Wednesday")
 
-elif day == 5:
-    print("Thursday")
+# elif day == 5:
+#     print("Thursday")
 
-elif day == 6:
-    print("Friday")
+# elif day == 6:
+#     print("Friday")
 
-elif day == 7:
-    print("Saturday")
+# elif day == 7:
+#     print("Saturday")
+
+# else:
+#     print("Please enter a valid number")
+
+
+# Question 7th
+# ======================== check a number three number is equal or not and check which number is greater
+
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
+c = int(input("enter third number:"))
+
+if a == b and b == c:
+    print("All numbers are equal")
+
+elif a == b or b == c or c == a:
+    print("Two numbers are equal")
+
+elif a > b and a > c:
+    print(f"{a} is greater than {b} and {c}")
+
+elif b > a and b > c:
+    print(f"{b} is greater than {a} and {c}")
 
 else:
-    print("Please enter a valid number")
+    print(f"{c} is greater than {a} and {b}")
