@@ -59,3 +59,48 @@
 
 # for i in range(n,0,-1):
 #     print(i)
+
+
+
+# Question 4th
+# ======================== sum of natural number by user input
+
+# n = int(input("Enter a number:"))
+
+# sum = 0
+
+# for i in range(1,n+1):
+#     sum += i
+# print(f"the sum is {sum}")
+
+
+
+# Question 5th
+# ======================== factorial of a number by user input
+
+# n = int(input("Which number you want factorial:"))
+
+# fact = 1
+
+# for i in range(1,n+1):
+#     fact *= i
+
+# print(f"the factorial of {n} is {fact}")
+
+
+
+# Question 6th
+# ======================== n number sum but even_sum alag and odd_sum alag
+
+n = int(input("Enter a number:"))
+
+even_sum = 0
+odd_sum = 0
+
+for i in range(1,n+1):
+    if i % 2 == 0:
+        even_sum += i
+    else:
+        odd_sum += i
+
+print(f"the even sum is {even_sum} and the odd sum is {odd_sum}")
