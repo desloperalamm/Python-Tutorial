@@ -25,11 +25,7 @@
 # s = "Hello welcome to python"
 
 # for i in range(0,len(s),1):
-<<<<<<< HEAD
 #     print(s[i])
 
 for i in range(0,10,1):
     print(i)
-=======
-#     print(s[i])
->>>>>>> 487ed20657822373e6ecf608685ad5ccb32ed3a9
