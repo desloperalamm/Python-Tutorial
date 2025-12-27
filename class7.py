@@ -27,5 +27,35 @@
 # for i in range(0,len(s),1):
 #     print(s[i])
 
-for i in range(0,10,1):
-    print(i)
+
+
+# ==================================================================================================================
+# ==================================================================================================================
+
+# Question 1st
+# ======================== n number print by user input
+
+# n = int(input("Enter a number:"))
+
+# for i in range(1,n+1):
+#     print("Hello World", i)
+
+
+
+# Question 2nd
+# ======================== print 1 number to n number print by user input
+
+# n = int(input("Enter a number:"))
+
+# for i in range(1,n+1):
+#     print(i)
+
+
+
+# Question 3rd
+# ======================== print n number to 1 number print by user input
+
+# n = int(input("Enter a number:"))
+
+# for i in range(n,0,-1):
+#     print(i)
