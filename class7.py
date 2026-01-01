@@ -131,18 +131,6 @@
 # print(f"the sum of factors of {n} is {sum}")
 
 
-n = int(input("Enter a number which you want sum of factors:"))
-
-sum  = 0
-
-for i in range(1,n+1):
-    if n % i == 0:
-        sum += i
-        
-print(f"the sum of factors of {n} is {sum}.")
-
-
-
 # Question 9th
 # ======================== Strong number or not
 
