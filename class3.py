@@ -44,6 +44,16 @@ print(f"My name is {name} and I am {age} years old and I am a {des}")
 
 print(type(age))
 
+
+
+name = input("enter your name: ")
+age = int(input("enter your age: "))
+des = input("enter your des: ")
+
+print(f"My name is {name} and I am {age} years old and I am a {des}")
+
+print(type(age))
+
 name = input("enter your name: ")
 age = int(input("enter your age: "))
 des = input("enter your des: ")
