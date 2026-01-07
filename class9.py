@@ -24,18 +24,29 @@
 
 # palindrome checker using function
 
-def palindrome(x):
-    rev = 0
-    copy = x
-    while x > 0:
-        rev = (rev * 10) + (x % 10)
-        x = x // 10
+# def palindrome(x):
+#     rev = 0
+#     copy = x
+#     while x > 0:
+#         rev = (rev * 10) + (x % 10)
+#         x = x // 10
 
-    if rev == copy:
-        return True
-    else:
-        return False
+#     if rev == copy:
+#         return True
+#     else:
+#         return False
         
-print(palindrome(1221))
-print(palindrome(123))
-print(palindrome(454))
+# print(palindrome(1221))
+# print(palindrome(123))
+# print(palindrome(454))
+
+
+
+# ============================================== Keyword Arguments
+# ===============================================================
+
+def addition(a,b):
+    print(a+b)
+
+addition(b=10 , a=5) # keyword arguments
+addition(a=20 , b=30)
