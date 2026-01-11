@@ -75,19 +75,38 @@
 # # Question 5: WAP to left rotate a list by 1 elements
 # # =========================================================
 
-my_list = [10, 20, 30, 40, 50]
+# my_list = [10, 20, 30, 40, 50]
 
-for i in range(len(my_list)-1):
-    my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
+# for i in range(len(my_list)-1):
+#     my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
 
-print("Left rotated list is:", my_list)
-
-
+# print("Left rotated list is:", my_list)
 
 
+# # Question 6: WAP to left rotate a list by k elements
+# # =========================================================
+
+# k = int(input("Enter the number of positions to left rotate: "))
+# my_list = [10, 20, 30, 40, 50, 60, 70]
+
+# for i in range(k):
+#     for i in range(len(my_list)-1):
+#         my_list[i], my_list[i+1] = my_list[i+1], my_list[i]
+
+# print("Left rotated list is:", my_list)
 
 
+# # Question 7: WAP to reverse a list without using extra space
+# # =========================================================
 
+my_list = [10, 20, 30, 40, 50,60]
+reversed = len(my_list) - 1
+
+for i in range(len(my_list)//2):
+    my_list[i], my_list[reversed] = my_list[reversed], my_list[i]
+    reversed -= 1
+
+print("Reversed list is:", my_list)
 
 
 
