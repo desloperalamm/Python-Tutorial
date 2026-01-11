@@ -38,6 +38,41 @@
 # # Question 3: WAP to find Second Minimum element with index
 # # =========================================================
 
+my_list = [10,20,30,25,5,60,40,15,70]
+
+max_value = my_list[0]
+max_value2 = my_list[0]
+max_index = 0
+max_index2 = 0
+
+for i in range(len(my_list)):
+    if my_list[i] > max_value:
+        max_value2 = max_value
+        max_value = my_list[i]
+        max_index2 = max_index
+        max_index = i
+print(f"first max value is: {max_value} at index {max_index} && second max value is: {max_value2} at index {max_index2}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # my_list = [10, 20, 30, 40, 79, 70, 25, 5, 80, 15]
 
