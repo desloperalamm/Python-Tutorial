@@ -9,6 +9,15 @@
 # print(f"Average is: {sum / len(my_list)}")
 
 
+# my_list = [10,20,30,40,50,60,70]
+# sum = 0
+# # average = 0
+# for i in my_list:
+#     sum += i
+
+# print(f"Sum is: {sum} && Average is: {sum / len(my_list)}")
+
+
 # Question 2: WAP to find Maximum element with index
 # ==================================================
 
@@ -26,32 +35,30 @@
 
 
 
-
-
 # # Question 3: WAP to find Second Minimum element with index
 # # =========================================================
 
 
-my_list = [10, 20, 30, 40, 79, 70, 25, 5, 80, 15]
+# my_list = [10, 20, 30, 40, 79, 70, 25, 5, 80, 15]
 
-max_value = my_list[0]
-max_value2 = my_list[0]
-max_value3 = my_list[0]
-max_index = 0
-max_index2 = 0
-max_index3 = 0
+# max_value = my_list[0]
+# max_value2 = my_list[0]
+# max_value3 = my_list[0]
+# max_index = 0
+# max_index2 = 0
+# max_index3 = 0
 
-for i in range(len(my_list)):
-    if my_list[i] > max_value:
-        max_value3 = max_value2
-        max_value2 = max_value
-        max_value = my_list[i]
-        max_index3 = max_index2
-        max_index2 = max_index
-        max_index = i
+# for i in range(len(my_list)):
+#     if my_list[i] > max_value:
+#         max_value3 = max_value2
+#         max_value2 = max_value
+#         max_value = my_list[i]
+#         max_index3 = max_index2
+#         max_index2 = max_index
+#         max_index = i
 
-    elif my_list[i] > max_value2 and my_list[i] != max_value:
-         max_value3 = max_value2
-         max_value2 = my_list[i]
+#     elif my_list[i] > max_value2 and my_list[i] != max_value:
+#          max_value3 = max_value2
+#          max_value2 = my_list[i]
 
-print(f"first maximum Value is: {max_value} at index {max_index} && second maximum Value is: {max_value2} at index {max_index2} && third maximum Value is: {max_value3} at index {max_index3}") 
+# print(f"first maximum Value is: {max_value} at index {max_index} && second maximum Value is: {max_value2} at index {max_index2} && third maximum Value is: {max_value3} at index {max_index3}") 
