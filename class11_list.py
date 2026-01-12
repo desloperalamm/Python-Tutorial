@@ -138,3 +138,7 @@ print("Reversed list is:", my_list)
 #          max_value2 = my_list[i]
 
 # print(f"first maximum Value is: {max_value} at index {max_index} && second maximum Value is: {max_value2} at index {max_index2} && third maximum Value is: {max_value3} at index {max_index3}") 
+
+
+
+# # Question 8: WAP to find Third Maximum element with index
