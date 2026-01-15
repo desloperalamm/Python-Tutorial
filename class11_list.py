@@ -99,14 +99,14 @@
 # # Question 7: WAP to reverse a list without using extra space
 # # =========================================================
 
-my_list = [10, 20, 30, 40, 50,60]
-reversed = len(my_list) - 1
+# my_list = [10, 20, 30, 40, 50,60]
+# reversed = len(my_list) - 1
 
-for i in range(len(my_list)//2):
-    my_list[i], my_list[reversed] = my_list[reversed], my_list[i]
-    reversed -= 1
+# for i in range(len(my_list)//2):
+#     my_list[i], my_list[reversed] = my_list[reversed], my_list[i]
+#     reversed -= 1
 
-print("Reversed list is:", my_list)
+# print("Reversed list is:", my_list)
 
 
 
@@ -141,5 +141,15 @@ print("Reversed list is:", my_list)
 
 
 
-# # Question 8: WAP to find Third Maximum element with index
+# # Question 9: linear search in a list
+# # =========================================================
+# 
+my_list = [30,20,234,6,23,43,90,12,56,78,100]
+search_value = 56
 
+for i in range(len(my_list)):
+    if my_list[i] == search_value:
+        print(f"Value {search_value} found at index {i}")
+        break
+else:
+    print(f"Value {search_value} not found at index {i}")
