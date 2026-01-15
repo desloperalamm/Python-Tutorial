@@ -144,12 +144,39 @@
 # # Question 9: linear search in a list
 # # =========================================================
 # 
-my_list = [30,20,234,6,23,43,90,12,56,78,100]
-search_value = 56
+# my_list = [30,20,234,6,23,43,90,12,56,78,100]
+# search_value = 56
 
-for i in range(len(my_list)):
-    if my_list[i] == search_value:
-        print(f"Value {search_value} found at index {i}")
+# for i in range(len(my_list)):
+#     if my_list[i] == search_value:
+#         print(f"Value {search_value} found at index {i}")
+#         break
+# else:
+#     print(f"Value {search_value} not found at index {i}")
+
+
+
+
+# # Question 10: Binary search in a sorted list
+# # =========================================================
+
+
+my_list = [9,15,23,34,45,56,67,78,86,94,100]
+
+search_value = 23
+
+low_index = 0
+high_index = len(my_list) - 1
+mid_index = (low_index + high_index) // 2
+
+while low_index <= high_index:
+    mid_index = (low_index + high_index) // 2
+    if my_list[mid_index] == search_value:
+        print(f"Value {search_value} found at index {mid_index}")
         break
+    elif my_list[mid_index] < search_value:
+        low_index = mid_index + 1
+    else:
+        high_index = mid_index - 1
 else:
-    print(f"Value {search_value} not found at index {i}")
+    print(f"Value {search_value} not found in the list")
