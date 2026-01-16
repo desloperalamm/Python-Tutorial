@@ -195,16 +195,29 @@
 
 # # second way to bubble sort
 
-my_list = [39, 12, 45, 23, 67, 34, 89, 10, 5, 78, 56, 90]
+# my_list = [39, 12, 45, 23, 67, 34, 89, 10, 5, 78, 56, 90]
+
+# for i in range(len(my_list)-1):
+#     j = i + 1
+#     min_index = i
+
+#     for k in range(j, len(my_list)):
+#         if my_list[k] < my_list[min_index]:
+#             min_index = k
+
+#     my_list[i], my_list[min_index] = my_list[min_index], my_list[i]
+
+# print(my_list)
+
+
+
+my_list = [89, 45, 23, 67, 34, 12, 10, 5, 78, 56, 90]
 
 for i in range(len(my_list)-1):
-    j = i + 1
     min_index = i
-
-    for k in range(j, len(my_list)):
-        if my_list[k] < my_list[min_index]:
-            min_index = k
-
+    for j in range(i+1, len(my_list)):
+        if my_list[j] < my_list[min_index]:
+            min_index = j
+    
     my_list[i], my_list[min_index] = my_list[min_index], my_list[i]
-
 print(my_list)
