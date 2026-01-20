@@ -47,10 +47,13 @@
 
 # 1st method count()
 
-tuple = (10,20,10,10,20,20,30,40,50,10)
-print(tuple.count(10))  # output 4
+# tuple = (10,20,10,10,20,20,30,40,50,10)
+# print(tuple.count(10))  # output 4
 
-tuple = (10,20,30,40,50)
-print(tuple.index(30)) #Output 2
+# tuple = (10,20,30,40,50)
+# print(tuple.index(30)) #Output 2
 
 # 2nd method index()
+
+tuple = (10,20,30,40,50)
+print(tuple.index(20)) #Output 1
