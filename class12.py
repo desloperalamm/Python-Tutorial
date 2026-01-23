@@ -57,3 +57,6 @@
 
 tuple = (10,20,30,40,50)
 print(tuple.index(20)) #Output 1
+
+
+print(tuple.index(100)) #ValueError: tuple.index(x): x not in tuple
